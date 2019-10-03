@@ -38,7 +38,7 @@ int main(){
 		if(b[i]!=0){
 //			cout<<b[i]<<" ";
 //			cout<<endl;
-			b[k]=b[i];
+			b[k]=b[i]; //b[0]
 			k++;
 		}	
 	}
@@ -84,8 +84,6 @@ int main(){
 	for(int i=0;i<n;i++){
 		cout<<a[i]<<" ";
 	}
-	
-	
     return 0;
 }
 void demDuong(int arr[]) {
